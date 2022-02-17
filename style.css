@@ -4,25 +4,23 @@
     box-sizing: border-box;
 }
 .comingbackground{
-    background-color: rgba(0, 0, 255, 0.515);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/comingbackground.png);
+    background-size: cover;
+    background-position: center;
+}
+.comingcontainer{
+    width: 80% !important;
+    margin: auto;
 }
 .cominglogo{
     padding-bottom: 100px;
     padding-top: 10px;
     width: 15%;
 }
-.container{
-    width: 90%;
-}
-.comingbrand{
-    width: 90% !important;
-    padding-left: 55px;
-}
 .comingheader{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 35px;
-    line-height: 74px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -46,7 +44,7 @@
     font-weight: normal;
     font-size: small;
     color: #FFFFFF;
-    width: 80%;
+    width: 70%;
 }
 .comingtext{
     justify-content: center;
@@ -71,7 +69,6 @@
     width: 80%;
 }
 .comingcopy{
-    text-align: center;
     font-size: small;
     color: #FFFFFF;
     padding-top: 10px;
@@ -79,7 +76,7 @@
 .come1{
     width: 7%;
     position: absolute;
-    right: 60px;
+    right: 40px;
 }
 .come2{
     width: 7%;
@@ -104,41 +101,40 @@
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
-        width: 30%;
-    }
-    .comingroup{
-        font-size: 0px !important;
+        width: 80%;
+        padding-left: 55px;
     }
     .container{
         width: 100%;
     }
-    .comingbrand{
-        width: 100% !important;
-        height: 40vh !important;
-    }
-    .comingtext{
-        padding-left: 40px !important;
-        padding-top: 0px;
+    .comingwords{
+        width: 100%;
     }
     .comingcopy{
         font-size: small;
+        padding-left: 0px !important;
+        text-align: center !important;
     }
     .comingmedia{
         font-size: small;
         padding-right: 40px;
     }
     .comingroup{
-       width: 90% !important;
-       padding-bottom: 50px !important;
+       width: 100% !important;
+       padding-bottom: 100px !important;
     }
     .comingsubheader{
-        font-size: 28px;
+        font-size: 20px;
+        line-height: 30px;
     } 
     .comingheader{
-        font-size: 28px;
+        font-size: 20px;
+        padding-top: 100px;
     }
     .come1{
-        display: none;
+        position: fixed;
+        top: 200px;
+        right: 160px;
     }
     .come2{
         display: none;
@@ -149,32 +145,46 @@
     .come4{
         display: none;
     }
+    
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
-        width: 30%;
+        width: 80%;
+        padding-left: 55px;
     }
     .container{
         width: 100%;
     }
-    .comingbrand{
-        width: 100% !important;
-        height: 40vh !important;
-    }
-    .comingtext{
-        padding-left: 60px !important;
+    .comingwords{
+        width: 100%;
+        font-size: large;
     }
     .comingcopy{
         font-size: small;
+        padding-left: 0px !important;
+        text-align: center !important;
     }
     .comingmedia{
         font-size: small;
-        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .comingroup{
+       width: 100% !important;
+       padding-bottom: 100px !important;
+    }
+    .comingsubheader{
+        font-size: 40px;
+    } 
+    .comingheader{
+        font-size: 40px;
+        padding-top: 100px;
     }
     .come1{
-        display: none;
+        position: fixed;
+        top: 200px;
+        right: 270px;
     }
     .come2{
         display: none;
@@ -190,41 +200,58 @@
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
-        width: 30%;
+        width: 80%;
+        padding-left: 55px;
     }
     .container{
         width: 100%;
     }
-    .comingbrand{
-        width: 100% !important;
-        height: 40vh !important;
-    }
-    .comingtext{
-        padding-left: 40px !important;
-        padding-top: 0px;
+    .comingwords{
+        width: 100%;
     }
     .comingcopy{
         font-size: small;
+        padding-left: 0px !important;
+        text-align: center !important;
     }
     .comingmedia{
         font-size: small;
-        padding-right: 40px;
+        justify-content: center;
+        align-items: center;
     }
     .comingroup{
-       width: 90% !important;
-       padding-bottom: 50px !important;
+       width: 100% !important;
+       padding-bottom: 100px !important;
+    }
+    .comingsubheader{
+        font-size: 29px;
+    } 
+    .comingheader{
+        font-size: 30px;
+        padding-top: 100px;
     }
     .come1{
-        display: none;
+        width: 7%;
+        position: absolute;
+        left: 800px;
     }
     .come2{
-        display: none;
+        width: 7%;
+        position: absolute;
+        top: 20px;
+        right: 100px;
     }
     .come3{
-        display: none;
+        width: 7%;
+        position: absolute;
+        top: 450px;
+        left: 400px;
     }
     .come4{
-        display: none;
+        width: 7%;
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -255,37 +282,35 @@
        width: 90% !important;
        padding-bottom: 50px !important;
     }
+    .come1{
+        width: 7%;
+        position: absolute;
+        left: 800px;
+    }
+    .come2{
+        width: 7%;
+        position: absolute;
+        top: 20px;
+        right: 100px;
+    }
+    .come3{
+        width: 7%;
+        position: absolute;
+        top: 450px;
+        left: 400px;
+    }
+    .come4{
+        width: 7%;
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .cominglogo{
-        padding-bottom: 50px;
-        padding-top: 10px;
-        width: 20%;
+    .comingcontainer{
+        width: 80% !important;
+        margin: auto;
     }
-    .container{
-        width: 100%;
-    }
-    .comingbrand{
-        width: 90% !important;
-        height: 40vh !important;
-    }
-    .comingtext{
-        padding-left: 40px !important;
-        padding-top: 0px;
-    }
-    .comingcopy{
-        font-size: small;
-    }
-    .comingmedia{
-        font-size: small;
-        padding-right: 40px;
-    }
-    .comingroup{
-       width: 90% !important;
-       padding-bottom: 50px !important;
-    }
-}
-@media (min-width: 1400px) {
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
@@ -295,23 +320,96 @@
         width: 100%;
     }
     .comingbrand{
-        width: 100% !important;
-        height: 40vh !important;
-        padding-left: 70px !important;
+        width: 80% !important;
+        height: 70vh !important;
     }
     .comingtext{
-        padding-left: 40px !important;
-        padding-top: 0px;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .comingcopy{
+        font-size: small;
+    }
+    .comingmedia{
+        font-size: 18px;
+    }
+    .comingroup{
+       width: 70% !important;
+       padding-bottom: 100px !important;
+    }
+    .come1{
+        width: 7%;
+        position: absolute;
+        left: 800px;
+    }
+    .come2{
+        width: 7%;
+        position: absolute;
+        top: 220px;
+        right: 100px;
+    }
+    .come3{
+        width: 7%;
+        position: absolute;
+        top: 500px;
+        left: 400px;
+    }
+    .come4{
+        width: 7%;
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
+    }
+}
+@media (min-width: 1400px) {
+    .cominglogo{
+        padding-bottom: 50px;
+        padding-top: 10px;
+        width: 20%;
+    }
+    .container{
+        width: 100%;
+    }
+    .comingbrand{
+        width: 80% !important;
+        height: 70vh !important;
+    }
+    .comingtext{
+        padding-top: 40px;
+        justify-content: center;
     }
     .comingcopy{
         font-size: small;
     }
     .comingmedia{
         font-size: small;
-        padding-right: 40px;
     }
     .comingroup{
-       width: 90% !important;
-       padding-bottom: 50px !important;
+       width: 70% !important;
+       padding-bottom: 100px !important;
+    }
+    .come1{
+        width: 7%;
+        position: absolute;
+        left: 800px;
+    }
+    .come2{
+        width: 7%;
+        position: absolute;
+        top: 220px;
+        right: 100px;
+    }
+    .come3{
+        width: 7%;
+        position: absolute;
+        top: 500px;
+        left: 400px;
+    }
+    .come4{
+        width: 7%;
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
     }
 }
