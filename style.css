@@ -73,28 +73,7 @@
     color: #FFFFFF;
     padding-top: 10px;
 }
-.come1{
-    width: 7%;
-    position: absolute;
-    right: 40px;
-}
-.come2{
-    width: 7%;
-    position: absolute;
-    top: 220px;
-    right: 100px;
-}
-.come3{
-    width: 7%;
-    position: absolute;
-    top: 20px;
-}
-.come4{
-    width: 7%;
-    position: absolute;
-    bottom: 300px;
-    left: 370px;
-}
+
 
 
 @media (min-width: 0px) and (max-width: 576px) {
@@ -135,20 +114,6 @@
     .comingheader{
         font-size: 20px;
         padding-top: 100px;
-    }
-    .come1{
-        position: fixed;
-        top: 200px;
-        right: 160px;
-    }
-    .come2{
-        display: none;
-    }
-    .come3{
-        display: none;
-    }
-    .come4{
-        display: none;
     }
     
 }
@@ -191,20 +156,6 @@
         font-size: 40px;
         padding-top: 100px;
     }
-    .come1{
-        position: fixed;
-        top: 200px;
-        right: 270px;
-    }
-    .come2{
-        display: none;
-    }
-    .come3{
-        display: none;
-    }
-    .come4{
-        display: none;
-    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .comingcontainer{
@@ -245,29 +196,6 @@
         font-size: 30px;
         padding-top: 100px;
     }
-    .come1{
-        width: 7%;
-        position: absolute;
-        left: 800px;
-    }
-    .come2{
-        width: 7%;
-        position: absolute;
-        top: 20px;
-        right: 100px;
-    }
-    .come3{
-        width: 7%;
-        position: absolute;
-        top: 450px;
-        left: 400px;
-    }
-    .come4{
-        width: 7%;
-        position: absolute;
-        bottom: 250px;
-        left: 50px;
-    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .comingcontainer{
@@ -301,29 +229,6 @@
     .comingroup{
        width: 90% !important;
        padding-bottom: 50px !important;
-    }
-    .come1{
-        width: 7%;
-        position: absolute;
-        left: 800px;
-    }
-    .come2{
-        width: 7%;
-        position: absolute;
-        top: 20px;
-        right: 100px;
-    }
-    .come3{
-        width: 7%;
-        position: absolute;
-        top: 450px;
-        left: 400px;
-    }
-    .come4{
-        width: 7%;
-        position: absolute;
-        bottom: 250px;
-        left: 50px;
     }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -362,29 +267,6 @@
        width: 70% !important;
        padding-bottom: 100px !important;
     }
-    .come1{
-        width: 7%;
-        position: absolute;
-        left: 800px;
-    }
-    .come2{
-        width: 7%;
-        position: absolute;
-        top: 220px;
-        right: 100px;
-    }
-    .come3{
-        width: 7%;
-        position: absolute;
-        top: 500px;
-        left: 400px;
-    }
-    .come4{
-        width: 7%;
-        position: absolute;
-        bottom: 250px;
-        left: 50px;
-    }
 }
 @media (min-width: 1400px) {
     .comingsect{
@@ -412,28 +294,5 @@
     .comingroup{
        width: 70% !important;
        padding-bottom: 100px !important;
-    }
-    .come1{
-        width: 7%;
-        position: absolute;
-        left: 800px;
-    }
-    .come2{
-        width: 7%;
-        position: absolute;
-        top: 220px;
-        right: 100px;
-    }
-    .come3{
-        width: 7%;
-        position: absolute;
-        top: 500px;
-        left: 400px;
-    }
-    .come4{
-        width: 7%;
-        position: absolute;
-        bottom: 250px;
-        left: 50px;
     }
 }
