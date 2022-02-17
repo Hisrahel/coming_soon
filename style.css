@@ -85,13 +85,15 @@
         padding-top: 10px;
         width: 30%;
     }
+    .comingroup{
+        font-size: 0px !important;
+    }
     .container{
         width: 100%;
     }
     .comingbrand{
-        width: 80% !important;
+        width: 100% !important;
         height: 40vh !important;
-        padding-left: 70px !important;
     }
     .comingtext{
         padding-left: 40px !important;
@@ -108,6 +110,9 @@
        width: 90% !important;
        padding-bottom: 50px !important;
     }
+    .comingsubheader{
+        font-size: 34px;
+    }
     
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -120,9 +125,8 @@
         width: 100%;
     }
     .comingbrand{
-        width: 80% !important;
+        width: 100% !important;
         height: 40vh !important;
-        padding-left: 70px !important;
     }
     .comingtext{
         padding-left: 60px !important;
@@ -147,7 +151,6 @@
     .comingbrand{
         width: 100% !important;
         height: 40vh !important;
-        padding-left: 70px !important;
     }
     .comingtext{
         padding-left: 40px !important;
@@ -177,7 +180,6 @@
     .comingbrand{
         width: 100% !important;
         height: 40vh !important;
-        padding-left: 70px !important;
     }
     .comingtext{
         padding-left: 40px !important;
@@ -196,11 +198,32 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .coming-side{
-        width: 50%;
+    .cominglogo{
+        padding-bottom: 50px;
+        padding-top: 10px;
+        width: 20%;
     }
-    .comingpage{
-        text-align: center;
+    .container{
+        width: 100%;
+    }
+    .comingbrand{
+        width: 90% !important;
+        height: 40vh !important;
+    }
+    .comingtext{
+        padding-left: 40px !important;
+        padding-top: 0px;
+    }
+    .comingcopy{
+        font-size: small;
+    }
+    .comingmedia{
+        font-size: small;
+        padding-right: 40px;
+    }
+    .comingroup{
+       width: 90% !important;
+       padding-bottom: 50px !important;
     }
 }
 @media (min-width: 1400px) {
