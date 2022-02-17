@@ -132,8 +132,11 @@
        padding-bottom: 50px !important;
     }
     .comingsubheader{
-        font-size: 34px;
+        font-size: 28px;
     } 
+    .comingheader{
+        font-size: 28px;
+    }
     .come1{
         display: none;
     }
