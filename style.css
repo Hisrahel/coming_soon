@@ -17,7 +17,6 @@
 .comingbrand{
     width: 90% !important;
     padding-left: 55px;
-    height: 60vh;
 }
 .comingheader{
     font-family: 'Montserrat', sans-serif;
@@ -77,6 +76,28 @@
     color: #FFFFFF;
     padding-top: 10px;
 }
+.come1{
+    width: 7%;
+    position: absolute;
+    right: 60px;
+}
+.come2{
+    width: 7%;
+    position: absolute;
+    top: 220px;
+    right: 100px;
+}
+.come3{
+    width: 7%;
+    position: absolute;
+    top: 20px;
+}
+.come4{
+    width: 7%;
+    position: absolute;
+    bottom: 300px;
+    left: 370px;
+}
 
 
 @media (min-width: 0px) and (max-width: 576px) {
@@ -112,8 +133,19 @@
     }
     .comingsubheader{
         font-size: 34px;
+    } 
+    .come1{
+        display: none;
     }
-    
+    .come2{
+        display: none;
+    }
+    .come3{
+        display: none;
+    }
+    .come4{
+        display: none;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .cominglogo{
@@ -137,6 +169,18 @@
     .comingmedia{
         font-size: small;
         padding-left: 40px;
+    }
+    .come1{
+        display: none;
+    }
+    .come2{
+        display: none;
+    }
+    .come3{
+        display: none;
+    }
+    .come4{
+        display: none;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -166,6 +210,18 @@
     .comingroup{
        width: 90% !important;
        padding-bottom: 50px !important;
+    }
+    .come1{
+        display: none;
+    }
+    .come2{
+        display: none;
+    }
+    .come3{
+        display: none;
+    }
+    .come4{
+        display: none;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
