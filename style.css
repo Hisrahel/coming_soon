@@ -98,6 +98,13 @@
 
 
 @media (min-width: 0px) and (max-width: 576px) {
+    .comingcontainer{
+        width: 99% !important;
+        margin: auto;
+    }
+    .comingsect{
+        padding-top: 10px;
+    }
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
@@ -145,6 +152,13 @@
     
 }
 @media (min-width: 576px) and (max-width: 767px) {
+    .comingcontainer{
+        width: 99% !important;
+        margin: auto;
+    }
+    .comingsect{
+        padding-top: 10px;
+    }
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
@@ -191,6 +205,13 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .comingcontainer{
+        width: 99% !important;
+        margin: auto;
+    }
+    .comingsect{
+        padding-top: 10px;
+    }
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
@@ -246,6 +267,13 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+    .comingcontainer{
+        width: 99% !important;
+        margin: auto;
+    }
+    .comingsect{
+        padding-top: 10px;
+    }
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
@@ -295,6 +323,13 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
+    .comingcontainer{
+        width: 99% !important;
+        margin: auto;
+    }
+    .comingsect{
+        padding-top: 10px;
+    }
     .comingcontainer{
         width: 80% !important;
         margin: auto;
@@ -348,6 +383,9 @@
     }
 }
 @media (min-width: 1400px) {
+    .comingsect{
+        padding-top: 10px;
+    }
     .cominglogo{
         padding-bottom: 50px;
         padding-top: 10px;
